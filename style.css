@@ -1,0 +1,173 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgb(251, 251, 204);
+}
+
+header {
+    background: linear-gradient(to right, grey, black);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    color: rgb(199, 197, 197);
+}
+
+header nav ul li a {
+    color: rgb(190, 184, 184);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1{
+    color: #c9c1c1;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #0f0f0f;
+    text-align: center;
+}
+
+main {
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+#about .intro {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: medium;
+}
+
+#about img {
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 50px 0 50px 0;
+    transition: transform 0.3s ease;
+}
+
+#about p {
+    max-width: 400px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: solid;
+}
+
+table,
+th,
+td {
+    border: 1px solid #838080;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button:hover {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    background: linear-gradient(to right, black, grey);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: matrix3d(600px);
+    }
+    100% {
+        opacity: 1;
+        transform: matrix3d(0);
+    }
+}
+.intro img, .intro p {
+    animation: fadeIn 4s ease-out;
+}
+
+
+
+
+
+

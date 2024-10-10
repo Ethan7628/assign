@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working Grid Example</title>
+    <link rel="stylesheet" href="working grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="gridcontainer">
+        <div class="heading">
+            <h1>Welcome to My Layout</h1>
+            <nav>
+                <ul>
+                    <li> <a href="#about">
+                            About Me
+                        </a></li>
+                    <li> <a href="#education">
+                            My Education
+                        </a></li>
+                    <li> <a href="#contact">
+                            Contact
+                        </a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="about">
+            <h3>About Me</h3>
+            <div class="nested-grid">
+                <div>
+                    <img src="../my pics/1720190267.790958_35IMG_4688.jpg" width="70%" alt="Kusasirakwe Ethan">
+                    <p>
+                        Hi, I'm <em><strong>Ethan Kusasirakwe</strong></em>, a budding web developer with a passion for
+                        technology.
+                        I'm constantly learning new skills and enhancing my web development abilities. I enjoy creating
+                        clean, user-friendly web experiences and am currently focusing on front-end development.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="education">
+            <h2>My Education</h2>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Schools</th>
+                            <th>Years attended</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Quality primary schools</td>
+                            <td>2010 - 2016</td>
+                        </tr>
+                        <tr>
+                            <td>Janan Secondary Schools</td>
+                            <td>2017 - 2023</td>
+                        </tr>
+                        <tr>
+                            <td>Odyssey technologies</td>
+                            <td>2024 - 2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <div class="form">
+                <form action="mailto:kusasirakwe.ethan.upti@gmail.com" method="post" enctype="text/plain"
+                    autocapitalize="on">
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="Contact">Contact</label><br>
+                    <input type="tel" id="Contact" name="Phone" required><br>
+
+                    <label for="Email">Your Email</label><br>
+                    <input type="email" id="Email" name="Email" required><br>
+
+                    <label for="message">Your Message</label><br>
+                    <textarea type="text" id="Message" name="Message" rows="5" required></textarea><br>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Connect with me on socials</p>
+            <div class="foota">
+                <a href="https://www.tiktok.com/@7628ethan">
+                    <img src="../my pics/icons8-tiktok-48.png" alt="Tiktok Icon" width="40" height="40">
+                    Tiktok
+                </a>
+                <a href="https://www.twitter.com/@7628ethan">
+                    <img src="../my pics/icons8-twitter-48.png" alt="Twitter Icon" width="40" height="40">
+                    Twitter
+                </a>
+                <a href="https://www.instagram.com/7628ethan">
+                    <img src="../my pics/icons8-instagram-48.png" alt="Instagram Icon" width="40" height="40">
+                    Instagram
+                </a>
+            <li><a href="https://wa.me/qr/AN54GC7SD3FVL1">
+                    <img src="../my pics/icons8-whatsapp-48.png" alt="wechat Icon" width="40" height="40">
+                    Whatsapp
+                </a>
+                <p>&REG; Ethan Kusasirakwe 2024</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
